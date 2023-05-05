@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593962722348",
+    "firebase_url": "https://boiwala-3bc38-default-rtdb.firebaseio.com",
+    "project_id": "boiwala-3bc38",
+    "storage_bucket": "boiwala-3bc38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593962722348:android:798c81eb2cadaec8191d89",
+        "android_client_info": {
+          "package_name": "com.example.boiwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593962722348-dspijtovvn44qf5b21rtm7rgjprdkd5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVmSnd07vPr_9Jnmmh1LiMnwDng0h6QtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593962722348-dspijtovvn44qf5b21rtm7rgjprdkd5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

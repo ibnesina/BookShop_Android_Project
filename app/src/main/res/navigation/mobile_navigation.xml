@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_myHome">
+
+    <fragment
+        android:id="@+id/nav_myHome"
+        android:name="com.example.boiwala.HomeFragmentt"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_myOrders"
+        android:name="com.example.boiwala.ui.OrderFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_myCart"
+        android:name="com.example.boiwala.ui.CartFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_myWishlist"
+        android:name="com.example.boiwala.ui.WishListFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <fragment
+        android:id="@+id/nav_myAccount"
+        android:name="com.example.boiwala.ui.AccountFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_account" />
+
+</navigation>

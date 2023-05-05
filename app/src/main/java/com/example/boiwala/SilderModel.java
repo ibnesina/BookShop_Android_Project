@@ -1,0 +1,17 @@
+package com.example.boiwala;
+
+public class SilderModel {
+    private int banner;
+
+    public SilderModel(int banner) {
+        this.banner = banner;
+    }
+
+    public int getBanner() {
+        return banner;
+    }
+
+    public void setBanner(int banner) {
+        this.banner = banner;
+    }
+}
